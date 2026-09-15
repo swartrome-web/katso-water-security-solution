@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 export default function Home() {
   const [type, setType] = useState<'Business' | 'Household'>('Business')
-  const waNumber = '27824456789' // CHANGE TO KATSO NUMBER
+  const waNumber = '27727839378' // CHANGE TO KATSO NUMBER
   const whatsapp = (msg: string) => `https://wa.me/${waNumber}?text=${encodeURIComponent(msg)}`
 
   const products = [
